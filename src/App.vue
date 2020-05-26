@@ -1,21 +1,21 @@
 <template>
   <div id="app">
-    <thread-list :threads=threads ></thread-list>
+    <question-list :questions=questions ></question-list>
   </div>
 </template>
 
 <script>
 import source from './data.json'
-import ThreadList from './components/ThreadList.vue'
+import QuestionList from './components/QuestionList.vue'
 
 export default {
   name: 'App',
   components: {
-    ThreadList
+    QuestionList
   },
   data: () => {
     return {
-      threads: source.threads
+      questions: source.questions
     }
   }
 }

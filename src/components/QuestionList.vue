@@ -1,59 +1,55 @@
 <template>
   <div>
-    <div v-for="question in data" :key="question._id" class="question-wrapper">
+    <div v-for="question in questions" :key="question._id">
       <div class="question">
-        <p>{{question.title}}</p>
-        <span class="user">{{question.user}}</span>
+        <h2>{{question.title}}</h2>
+        <p>{{question.description}}</p>
       </div>
 
-      <answer-list :data="question.answers"></answer-list>
+      <idea-list :data="question.ideas"></idea-list>
+
     </div>
   </div>
 </template>
 
 <script>
-import AnswerList from './AnswerList.vue'
+import IdeaList from './IdeaList.vue'
 
 export default {
+  name: 'QuestionList',
+  components: {
+    IdeaList
+  },
   props: {
-    data: {
+    questions: {
       required: true
     }
   },
-  components: {
-    AnswerList
+  data: () => {
+    return {
+      number: 0
+    }
   }
 }
 </script>
 
 <style scoped>
-  .question-wrapper {
-    display: flex;
-
-  }
   .question {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    padding: 0;
-    width: 300px;
-    height: 120px;
-    border: 1px solid black;
-    background-color: cornflowerblue;
-    border-radius: 5px;
-  }
-  .question p {
-    flex-grow: 1;
     margin: 0;
-    padding: 12px;
-  }
-  .question .user {
-    padding: 4px;
-    padding-right: 14px;
-    font-weight: 700;
-    text-align: right;
-    background-color:lavender;
+    margin-bottom: 40px;
+    padding: 10px;
+    /* width: 300px; */
+    color: #fff;
+    font-size: 1rem;
+    border: 1px solid #2e3b7d;
+    background-color: #81bed5;
     border-radius: 5px;
+
+  }
+
+  .question h2 {
+    margin: 0;
   }
 </style>

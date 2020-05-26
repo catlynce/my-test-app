@@ -1,49 +1,49 @@
 {
-    "threads": [
+    "questions": [
         {
             "_id": "20200504210222",
-            "title": "Testing threads",
+            "title": "Question number 1",
             "description": "lorem ipsum dolor sit amet",
-            "questions" : [
+            "ideas" : [
                 {
                     "_id": "2020050421021283123",
-                    "title": "This is the first question",
+                    "title": "Idea 1",
                     "user": "Carlo",
-                    "answers": [
+                    "reactions": [
                         {
                             "_id": "928739237987213",
-                            "description": "aslkdjlask djlkasjd lkjas dlkjasd",
+                            "description": "Reaction number 1",
                             "user": "Laura"
                         },
                         {
                             "_id": "928739237987213",
-                            "description": "aslkjd alskjd laksjd laksjd aslkdj",
+                            "description": "Reaction number 2",
                             "user": "Nico"
                         },
                         {
                             "_id": "928739237987213",
-                            "description": "oiuasoid joaisdoisad",
+                            "description": "Reaction number 3",
                             "user": "Max"
                         }
                     ]
                 },
                 {
                     "_id": "2020050421021283123",
-                    "title": "This is the second question",
+                    "title": "Idea num 2",
                     "user": "Carlo"
                 },
                 {
                     "_id": "2020050421021283123",
-                    "title": "This is the third question",
+                    "title": "Idea num 3",
                     "user": "Marc"
                 }
             ]
         },
         {
             "_id": "20200503220909",
-            "title": "Second Thread",
-            "description": "alsdkjf alskdjf lkasjdfl kajsd flkjas dflkj akdfslj",
-            "questions": [
+            "title": "Question number 2",
+            "description": "Lorem ipsum dolor sit amet",
+            "ideas": [
                 {
                     "_id": "2020050421021283123",
                     "title": "This is the first question",
