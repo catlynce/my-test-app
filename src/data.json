@@ -1,0 +1,70 @@
+{
+    "threads": [
+        {
+            "_id": "20200504210222",
+            "title": "Testing threads",
+            "description": "lorem ipsum dolor sit amet",
+            "questions" : [
+                {
+                    "_id": "2020050421021283123",
+                    "title": "This is the first question",
+                    "user": "Carlo",
+                    "answers": [
+                        {
+                            "_id": "928739237987213",
+                            "description": "aslkdjlask djlkasjd lkjas dlkjasd",
+                            "user": "Laura"
+                        },
+                        {
+                            "_id": "928739237987213",
+                            "description": "aslkjd alskjd laksjd laksjd aslkdj",
+                            "user": "Nico"
+                        },
+                        {
+                            "_id": "928739237987213",
+                            "description": "oiuasoid joaisdoisad",
+                            "user": "Max"
+                        }
+                    ]
+                },
+                {
+                    "_id": "2020050421021283123",
+                    "title": "This is the second question",
+                    "user": "Carlo"
+                },
+                {
+                    "_id": "2020050421021283123",
+                    "title": "This is the third question",
+                    "user": "Marc"
+                }
+            ]
+        },
+        {
+            "_id": "20200503220909",
+            "title": "Second Thread",
+            "description": "alsdkjf alskdjf lkasjdfl kajsd flkjas dflkj akdfslj",
+            "questions": [
+                {
+                    "_id": "2020050421021283123",
+                    "title": "This is the first question",
+                    "user": "Carlo"
+                },
+                {
+                    "_id": "2020050421021283123",
+                    "title": "This is another question",
+                    "user": "Marc"
+                },
+                {
+                    "_id": "2020050421021283123",
+                    "title": "Yet a new question",
+                    "user": "Daniel"
+                },
+                {
+                    "_id": "2020050421021283123",
+                    "title": "What to think about thid",
+                    "user": "Nuno"
+                }
+            ]
+        }
+    ]
+}
